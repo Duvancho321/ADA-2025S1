@@ -1,0 +1,13 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "lat",
+        "lon"
+    ],
+    "add_offset": 0.0,
+    "long_name": "Precipitation",
+    "missing_value": 65535,
+    "scale_factor": 1.1573999927350087e-06,
+    "standard_name": "precipitation_flux",
+    "units": "kg m-2 s-1"
+}

@@ -1,0 +1,12 @@
+{
+    "aggregate": "This is a spatial aggregate of the file with isimip_id=0390990a-3553-4b00-aa42-679ad5237a23",
+    "caution": "In contrast to the ISIMIP standard, latitude values in this file go from South to North",
+    "comment": "Values of pr in this file are packed for storage reasons; unpacked values with units kg m-2 s-1 can be retrieved using unpacked_value = packed_value * scale_factor + add_offset",
+    "contact": "ISIMIP cross-sectoral science team <info@isimip.org> <https://www.isimip.org> and Dirk Karger <dirk.karger@wsl.ch> <https://chelsa-climate.org>",
+    "institution": "Potsdam Institute for Climate Impact Research (PIK) and Swiss Federal Institute for Forest, Snow and Landscape Research (WSL)",
+    "isimip_id": "c214f17f-bc40-471d-af75-9ad75a0592db",
+    "project": "Inter-Sectoral Impact Model Intercomparison Project phase 3 (ISIMIP3)",
+    "references": "Karger et al. (2021) <https://doi.org/10.48364/ISIMIP.836809> for CHELSA-W5E5 v1.0; Lange (2019) <https://doi.org/10.5880/PIK.2019.023> and Cucchi et al. (2020) <https://doi.org/10.5194/essd-12-2097-2020> for W5E5 v1.0; Karger et al. (2021) <https://doi.org/10.1038/s41597-021-01084-6> for CHELSA v2.0",
+    "summary": "WFDE5 over land merged with ERA5 over the ocean (W5E5) v1.0 downscaled with the Climatologies at High resolution for the Earth's Land Surface Areas (CHELSA) method v2.0, aggregated from 30 arcsec to 90 arcsec",
+    "title": "CHELSA-W5E5 v1.0: W5E5 v1.0 downscaled with CHELSA v2.0, aggregated from 30 arcsec to 90 arcsec"
+}

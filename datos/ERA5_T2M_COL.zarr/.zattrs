@@ -1,0 +1,8 @@
+{
+    "Conventions": "CF-1.7",
+    "GRIB_centre": "ecmf",
+    "GRIB_centreDescription": "European Centre for Medium-Range Weather Forecasts",
+    "GRIB_subCentre": 0,
+    "history": "2025-01-24T23:23 GRIB to CDM+CF via cfgrib-0.9.15.0/ecCodes-2.39.0 with {\"source\": \"2m_temperature.grib\", \"filter_by_keys\": {\"stream\": [\"oper\"]}, \"encode_cf\": [\"parameter\", \"time\", \"geography\", \"vertical\"]}\nearthkit.transforms.aggregate.temporal.daily_reduce(2m_temperature_stream-oper, how=mean, **{'time_shift': {'hours': 0}, 'remove_partial_periods': True})",
+    "institution": "European Centre for Medium-Range Weather Forecasts"
+}
