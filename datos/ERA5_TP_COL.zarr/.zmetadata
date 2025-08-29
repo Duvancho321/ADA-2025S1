@@ -1,0 +1,165 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "Conventions": "CF-1.7",
+            "GRIB_centre": "ecmf",
+            "GRIB_centreDescription": "European Centre for Medium-Range Weather Forecasts",
+            "GRIB_subCentre": 0,
+            "history": "2025-01-27T16:22 GRIB to CDM+CF via cfgrib-0.9.15.0/ecCodes-2.39.0 with {\"source\": \"total_precipitation.grib\", \"filter_by_keys\": {\"stream\": [\"oper\"]}, \"encode_cf\": [\"parameter\", \"time\", \"geography\", \"vertical\"]}\nearthkit.transforms.aggregate.temporal.daily_reduce(total_precipitation_stream-oper, how=sum, **{'time_shift': {'hours': -1}, 'remove_partial_periods': True})",
+            "institution": "European Centre for Medium-Range Weather Forecasts"
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "latitude/.zarray": {
+            "chunks": [
+                121
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                121
+            ],
+            "zarr_format": 2
+        },
+        "latitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "latitude"
+            ],
+            "long_name": "latitude",
+            "standard_name": "latitude",
+            "stored_direction": "decreasing",
+            "units": "degrees_north"
+        },
+        "longitude/.zarray": {
+            "chunks": [
+                101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                101
+            ],
+            "zarr_format": 2
+        },
+        "longitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "longitude"
+            ],
+            "long_name": "longitude",
+            "standard_name": "longitude",
+            "units": "degrees_east"
+        },
+        "tp/.zarray": {
+            "chunks": [
+                100,
+                121,
+                101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                23741,
+                121,
+                101
+            ],
+            "zarr_format": 2
+        },
+        "tp/.zattrs": {
+            "GRIB_NV": 0,
+            "GRIB_Nx": 101,
+            "GRIB_Ny": 121,
+            "GRIB_cfName": "unknown",
+            "GRIB_cfVarName": "tp",
+            "GRIB_dataType": "fc",
+            "GRIB_gridDefinitionDescription": "Latitude/Longitude Grid",
+            "GRIB_gridType": "regular_ll",
+            "GRIB_iDirectionIncrementInDegrees": 0.25,
+            "GRIB_iScansNegatively": 0,
+            "GRIB_jDirectionIncrementInDegrees": 0.25,
+            "GRIB_jPointsAreConsecutive": 0,
+            "GRIB_jScansPositively": 0,
+            "GRIB_latitudeOfFirstGridPointInDegrees": 20.0,
+            "GRIB_latitudeOfLastGridPointInDegrees": -10.0,
+            "GRIB_longitudeOfFirstGridPointInDegrees": -85.0,
+            "GRIB_longitudeOfLastGridPointInDegrees": -60.0,
+            "GRIB_missingValue": 3.4028234663852886e+38,
+            "GRIB_name": "Total precipitation",
+            "GRIB_numberOfPoints": 12221,
+            "GRIB_paramId": 228,
+            "GRIB_shortName": "tp",
+            "GRIB_stepType": "accum",
+            "GRIB_stepUnits": 1,
+            "GRIB_surface": 0.0,
+            "GRIB_totalNumber": 0,
+            "GRIB_typeOfLevel": "surface",
+            "GRIB_units": "m",
+            "GRIB_uvRelativeToGrid": 0,
+            "_ARRAY_DIMENSIONS": [
+                "valid_time",
+                "latitude",
+                "longitude"
+            ],
+            "coordinates": "number",
+            "long_name": "Total precipitation",
+            "standard_name": "unknown",
+            "units": "m"
+        },
+        "valid_time/.zarray": {
+            "chunks": [
+                23741
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                23741
+            ],
+            "zarr_format": 2
+        },
+        "valid_time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "valid_time"
+            ],
+            "calendar": "proleptic_gregorian",
+            "time_shift": "-1 days +23:00:00",
+            "units": "days since 1950-01-01"
+        }
+    },
+    "zarr_consolidated_format": 1
+}
