@@ -16,14 +16,14 @@ En este repositorio encontrarás:
 
 ---
 
-## 👨‍🏫 Docente responsable  
+## 👨‍🏫 Docente responsable - Autor 
 **Carlos David Hoyos Ortiz**  
 - 🌐 Página de Cursos: [carlosdhoyos.github.io](https://carlosdhoyos.github.io/)  
 - 💻 GitHub: [@carlosdhoyos](https://github.com/carlosdhoyos)  
 
 ---
 
-## 👨‍💻 Autor de los códigos  
+## 👨‍💻 Coautor de los códigos  
 **Duvan Nieves**  
 - 💻 GitHub: [@Duvancho321](https://github.com/Duvancho321)  
 
